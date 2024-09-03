@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500;700&family=Poppins&display=swap');
+
+
+* {
+  font-family: 'Changa', sans-serif;
+}
+
+html {
+  direction: rtl;
+}
+
+.search-btn{
+  right: initial;
+  left: 15px;
+  padding: 13.5px 18px;/* because of font */
+
+}
+
+.close-search {
+  left: 20px;
+  right: initial;
+
+}
+
+.search-box button {
+  right: initial;
+  left: 0;
+  border-radius:  var(--search-rad) 0 0 var(--search-rad) ;
+
+}
+
+.about-image {
+
+  margin-left: 40px;
+  margin-right: 0px;
+}
+
+.about-img2-rtl {
+  margin-right: 40px;
+  margin-left: 0px;
+}
+
+.pagestyle .readmore a:hover i {
+
+  margin-right: 5px;
+
+  margin-left: initial;
+
+
+
+}
+
+footer .container .contents .subscribe .input i {
+  left: 0;
+  right: initial;
+}
+
+footer .container .links a {
+
+  padding-left: 4px;
+  padding-right: 2px;
+
+}
+
+footer .container .links i {
+  padding-right: initial;
+}
+
+footer .container .links a:hover {
+padding-left: 0px;  
+padding-right: 6px;   
+
+
+
+}
+
+
+.gallery-close
+{
+  position: absolute;
+  top: 20px;
+  right: initial;
+  left: 10px;
+}
+
+/* #indecator2 {
+
+  right: initial;
+  left: 10px;
+
+} */
+
+.date{
+  left: initial;
+  right: 0;
+  border-bottom-right-radius: initial;
+  border-top-right-radius: initial;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+
+.nav__list ul .nav__link {
+  padding-right: initial;
+  padding-left: 20px;
+}
+
+.img-box .slide.prev {
+  right: 5px;
+  left: initial;
+}
+
+.img-box .slide.next {
+  right: initial;
+  left: 5px;
+}
+
+@media screen and (max-width: 768px){
+  .about-img2-rtl {
+    margin-right: initial;
+}
+
+.about-image {
+
+  margin-left: initial;
+}
+}
+@media screen and (min-width: 992px){
+.nav__list .nav__item {
+    padding: 15px;
+}
+}
+
+
+@media screen and (max-width : 376px) and (min-height: 800px) {
+  .home__images img {
+    left: initial;
+    right: -12rem;
+  }
+}
+
+@media screen and (min-width : 480px) {
+
+  .home__images img {
+    left: 0;
+    right: initial;
+  }
+
+
+}
+
+@media screen and (min-width: 1025px) {
+
+
+  .nav__list ul ul{
+    right: 100%;
+  }
+
+}
+
