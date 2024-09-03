@@ -878,7 +878,7 @@
 
  /* T E S T I M O N I A L */
  .bgTest {
-   background-image: url(../images/background.jpg);
+   background-image: url(background.jpg);
    background-position: center center;
    background-size: cover;
    background-attachment: fixed !important;
@@ -1056,7 +1056,7 @@
    width: 100%;
    height: 80vh;
    border-radius: 10px;
-   background-image: url(../images/Agri2.png);
+   background-image: url(Agri2.png);
    /* background-size: cover; */
    background-repeat: no-repeat;
    background-position: center center;
@@ -1244,7 +1244,7 @@ cursor:col-resize;
 
    background-size: cover;
    position: relative;
-   background-image: url(../images/footer-background.jpg);
+   background-image: url(footer-background.jpg);
    color: var(--main-text);
    background-attachment: fixed;
  
